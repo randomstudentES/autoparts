@@ -1,0 +1,12 @@
+.FAQ_preguntas{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ_preguntas > h2{
+    text-decoration: underline;
+}

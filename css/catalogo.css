@@ -1,0 +1,27 @@
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.catalogo > div{
+    border-radius: 20px;
+    background-color: #707070;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.footer{
+    background-color: #383838;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    text-decoration: underline;
+}
